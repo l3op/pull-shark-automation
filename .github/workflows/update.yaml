@@ -27,6 +27,9 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
             token: ${{ secrets.PAT }}
-            commit-message: Update progress
+            commit-message: |
+                            Update progress
+
+                            Co-authored-by: @l3op <c8li@hotmail.com>
             title: Update progress
             branch: update-progress
