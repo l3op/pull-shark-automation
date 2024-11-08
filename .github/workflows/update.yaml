@@ -28,9 +28,8 @@ jobs:
         with:
             token: ${{ secrets.PAT }}
             commit-message: |
-                            Update progress
-                            
-                            
-                            Co-authored-by: Lucas <12974004+l3op@users.noreply.github.com>
+              Update progress
+              
+              Co-authored-by: Lucas <12974004+l3op@users.noreply.github.com>
             title: Update progress
             branch: update-progress
